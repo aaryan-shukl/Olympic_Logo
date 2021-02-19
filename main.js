@@ -1,7 +1,7 @@
 var canvas = document.getElementById("canvas");
 ctx = canvas.getContext("2d");
 
-canvas.addEventListener("mousedown", draw_logo);
+canvas.addEventListener("keydown", draw_logo);
 
 function draw_logo(e) {
     LogoX = e.clientX - canvas.offsetLeft;
