@@ -1,0 +1,13 @@
+.body_background {
+    background-image: url("bg1.jpg");
+    text-align: center;
+	background-position: center;
+	background-size: cover;
+}
+#canvas {
+    border: rgb(247, 247, 247);
+    border-radius: 10px;
+    border-style: ridge;
+    width: 65%;
+    height: 27%;
+}
